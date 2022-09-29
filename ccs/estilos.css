@@ -1,0 +1,64 @@
+
+
+body{
+ width: 100vw;
+ height: 120vh;
+
+}
+
+header{
+width: 100vw;
+height: 20vh;
+background-color: rgb(37, 37, 37);
+}
+
+.navegador{
+    list-style-type: none !important;
+    color:rgba(1, 202, 1, 0.904) !important; 
+}
+
+
+
+
+
+main{
+    width: 100vw;
+    height: 80vh;
+    background-color: brown;
+    background-image: url(../assets/image/fondo\ de\ portada\ home.webp);
+    background-position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+    
+.colorh1{
+color: rgba(1, 202, 1, 0.904) !important; 
+
+}
+
+.colorp{
+color: aliceblue !important;
+
+}
+
+footer{
+width: 100vw;
+height: 20vh;
+background-color:  rgb(37, 37, 37);
+}
+
+
+@media (max-width: 768px) and (min-width: 375px) {
+    
+    
+    
+
+}
+
+
+
+
+  
+

@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+  
+}
+body{
+    width:100vw;
+    height:200vh; 
+   background-color: black;
+}
+
+header{
+background-color: rgb(0, 0, 0);
+width: 100vw;
+height: 20vh;
+position: sticky;
+top: 0;
+z-index: 100;
+}
+
+#imagen{
+        height: 95px;
+        width: 150px;
+        margin: 10px;
+        padding: 10px 10px 10px 15px;
+       float: left;
+
+}
+
+header ul{
+    text-align: right;
+    padding: 10px
+    
+}
+ul li{
+    text-align: right;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 10px 15px 10px;
+    font-size: 18px;
+    display: inline-block;      
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(43, 255, 0);
+}
+.main{
+background-color: rgb(41, 40, 40);
+width: 100vw;
+height: 160vh;
+}
+.main_rutinas{
+    width: 100vw;
+    height: 80vh;
+    float: left;
+}
+
+
+.main_rutinas_imagenrutinas{
+width: 276px;
+height: 414px;
+float: left;
+}
+
+.main_rutinas_imagenrutinas_titulo{
+color: rgb(3, 201, 3);
+text-align: center;
+}
+
+.main_rutinas_imagenrutinas_titulo_parrafo{
+    color: aliceblue;
+    font-size: 18px;
+    text-align: center;
+}
+
+.main_alimenticios{
+width: 100vw;
+height: 80vh;
+
+}
+
+.main_alimenticios_imagen{
+width: 276px; ;
+height: 345px;
+float: left;
+
+}
+
+.main_alimenticios_imagen-titulo{
+    color: rgb(3, 201, 3);
+    text-align: center;
+
+}
+.main_alimenticios_imagen-titulo_parrafo{
+      color: aliceblue;
+       font-size: 18px;
+      text-align: center;
+}
+footer{
+    width: 100vw;
+    height: 20vh;
+    text-align: center;
+color: rgb(37, 168, 4);
+
+}
